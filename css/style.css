@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+
+/* Navbar Start Here */
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #474747;
+    margin-left: 72px;
+}
+.navbar-expand-lg .navbar-nav .nav-link.hire-me {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 18px 36px;
+    border-radius: 5px;
+}
+.navbar.navbar-expand-lg {
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+/* Navbar End Here */
+
+/* Banner Start Here */
+#banner {
+    background-color: #FFF8F3;
+}
+.banner-text {
+    padding-top: 295px;
+    padding-bottom: 181px;
+}
+.banner-text h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    padding-bottom: 52px;
+}
+.banner-text h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 85px;
+    font-weight: 700px;
+    color: #181818;
+    padding-bottom: 57px;
+}
+.banner-text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+    padding-bottom: 39px;
+}
+.banner-text a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    background-color: #FD6E0A;
+    padding: 18px 17px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 26.5px;
+    transition: all linear .4s;
+    border: 1px solid #FD6E0A;
+    text-decoration: none;
+
+}
+.banner-text .Contact-btn {
+    background-color: transparent;
+    color: #FD6E0A;
+    border-radius: 5px;
+    padding: 17px 24px;
+}
+.banner-text a:hover {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.banner-text .Contact-btn:hover {
+    background-color: #FD6E0A;
+    color: #fff;
+}
+/* Banner End Here */
+
+/* About Start Here */
+#about {
+    margin:130px 0;
+}
+.about-bg {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.about-content {
+    padding:130px 0;
+}
+.heading h2 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: "Open Sans", sans-serif;
+}
+.heading p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+    padding:0 11px;
+}
+.info h4 {
+    font-size: 20px;
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    line-height: 30px;
+}
+.info h3 {
+    font-size: 20px;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+    line-height: 30px;
+}
+/* About End Here */
+
+/* Service Start Here */
+.Service .heading p {
+    padding:0 19px;
+}
+#Services {
+    padding-bottom: 130px;
+}
+.service_m {
+    padding-top: 30px;
+}
+.services_item {
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.06);
+}
+.services_item img {
+    padding-bottom: 38px;
+}
+.services_item h3 {
+    font-size: 20px;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+    padding-bottom: 13px;
+}
+.services_item p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    padding-right: 57px;
+}
+/* Service End Here */
+
+
+/* summary Start Here */
+#summary {
+    padding-bottom: 112px;
+}
+#summary .heading {
+    padding-bottom: 113px;
+}
+.edu-item {
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 15px;
+}
+.edu-head h3 {
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    padding-bottom: 20px;
+}
+.edu-item h3 {
+    font-size: 25px;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+    padding-bottom: 10px;
+}
+.edu-item h4 {
+    font-size: 20px;
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600px;
+    padding-bottom: 15px;
+}
+.edu-item p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    padding-right: 175px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+
+.download-cv {
+    padding-top: 39px;
+    padding-bottom: 14px;
+}
+.download-cv a {
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 17px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* summary end Here */
+
+/* Contact Start Here */
+#contact {
+    background-color: #FFF8F3;padding-top: 145px;
+    padding-bottom: 65px;
+}
+#contact .contact_info p {
+    font-size: 16px;
+    padding-right: 90px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+#contact .contact_info i {
+    color: #FD6E0A;
+    font-size: 24px;
+    margin-right: 24px;
+}
+.fill input {
+    padding: 18px 0 18px 30px;
+    border: 0;
+}
+.fill textarea {
+    padding: 18px 0 134px 30px;
+    border: 0;
+}
+.form {
+    padding-top: 20px;
+}
+.fill input::placeholder {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;   
+}
+.fill {
+    padding-bottom: 24px;
+}
+.fill button {
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 39px 19px 39px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+}
+
+/* Contact End Here */
+
+/* Navbar Start Here */
+/* Navbar Start Here */
+/* Navbar Start Here */
+/* Navbar Start Here */
